@@ -4,12 +4,10 @@ using UnityEngine;
 using TMPro;
 using UnityEngine;
 using System.Collections;
-using GoogleMobileAds.Api;
 public class Score : MonoBehaviour
 {
     public TextMeshProUGUI score;
     public static float scoreCounter;
-    private InterstitialAd reklamObjesi;
 
     void Start()
     {
