@@ -12,7 +12,7 @@ public class GrinderTrigger : MonoBehaviour
         grinderLeft.transform.DOMoveX(-18f, 0.2f);
         grinderRight.transform.DOMoveX(18f, 0.2f);
         Invoke("GrinderMoveBack", 0.2f);
-        Difficulty.DifficultyFunc();
+        DifficultyMap1.DifficultyFunc();
     }
     void GrinderMoveBack()
     {

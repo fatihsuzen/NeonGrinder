@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LeftGrinder
   - RightGrinder
+  - Bomb
   layers:
   - Default
   - TransparentFX

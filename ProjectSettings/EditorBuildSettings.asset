@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_NeonGrinder/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/_NeonGrinder/Scenes/Map2.unity
+    guid: 900c18f809872c347b2a60d1350c80d8
+  - enabled: 1
+    path: Assets/_NeonGrinder/Scenes/map3.unity
+    guid: 546a398d46ba6ba4ca94284215fa1cb1
+  - enabled: 1
+    path: Assets/_NeonGrinder/Scenes/HowToPlay.unity
+    guid: 53a214618ff1c5f4a94e3405e2141b48
   m_configObjects: {}

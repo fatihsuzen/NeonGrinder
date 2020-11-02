@@ -8,7 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -111,17 +111,20 @@ PlayerSettings:
   switchNVNShaderPoolsGranularity: 33554432
   switchNVNDefaultPoolsGranularity: 16777216
   switchNVNOtherPoolsGranularity: 16777216
+  switchNVNMaxPublicTextureIDCount: 0
+  switchNVNMaxPublicSamplerIDCount: 0
   stadiaPresentMode: 0
   stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
+  vulkanEnableLateAcquireNextImage: 0
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 5.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -166,7 +169,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier: {}
   buildNumber: {}
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 5
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 29
   AndroidPreferredInstallLocation: 1
@@ -240,7 +243,7 @@ PlayerSettings:
   clonedFromGUID: b2c54f3ff098b6a4e868dc99c30c3bfd
   templatePackageId: 
   templateDefaultScene: 
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: C:/Users/Fatih/Desktop/key/neongrinder/user.keystore
@@ -570,6 +573,7 @@ PlayerSettings:
   ps4ShareFilePath: 
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
+  ps4ExtraSceSysFile: 
   ps4NPtitleDatPath: 
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
@@ -612,6 +616,8 @@ PlayerSettings:
   ps4disableAutoHideSplash: 0
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
+  ps4CompatibilityPS5: 0
+  ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0

@@ -9,6 +9,7 @@ public class TouchForce : MonoBehaviour
     {
         GetComponent<Rigidbody>().AddForce(Vector3.up * ObjectsTransformDown.ForceDown);
         GetComponent<Rigidbody>().AddForce(Vector3.forward* 1000);
+        GetComponent<AudioSource>().Play();
         particleSystem.Play();
     }
     private void OnCollisionEnter(Collision collision)

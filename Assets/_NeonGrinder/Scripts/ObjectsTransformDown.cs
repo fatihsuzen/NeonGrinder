@@ -6,7 +6,7 @@ using TMPro;
 
 public class ObjectsTransformDown : MonoBehaviour
 {
-    public static int ForceDown=200;
+    public static int ForceDown = 300;
     //public static float TransformTime=5f;
     void Start()
     {

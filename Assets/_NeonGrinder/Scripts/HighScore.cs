@@ -4,8 +4,10 @@ using UnityEngine;
 using TMPro;
 public class HighScore : MonoBehaviour
 {
+    public TextMeshProUGUI InfinityScoreText, BomberScoreText;
     void Start()
     {
-        GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("Score").ToString();
+        InfinityScoreText.text = PlayerPrefs.GetInt("1Score").ToString();
+        BomberScoreText.text = PlayerPrefs.GetInt("2Score").ToString();
     }
 }

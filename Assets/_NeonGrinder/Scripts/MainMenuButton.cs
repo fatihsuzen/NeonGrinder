@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuButton : MonoBehaviour
 {
-   public void PlayButtonFunc()
+    public static int SceneNo;
+    public void PlayButtonFunc()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneNo+1);
     }
 }
